@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Hello, AR Cube!</title>
+    <!-- include three.js library -->
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="greeting-container">
+            <div class="greeting-container__container">
+                <div class="greeting-container__header">Введение в AR</div>
+                <div class="greeting-container__subheader">
+                    <span>Добро Пожаловать, можете изучить примеры применения JS AR на примере движущейся модели Земли,
+                        а также вывода кубика
+                    </span>
+                    <span>JS AR ToolKit, Three.JS
+                        Для включения режима нажмите на телефон, а затем наведите камеру на Картинку маркера и появится
+                        модель
+                    </span>
+                </div>
+                <img src="https://static.tildacdn.com/tild6430-3135-4162-b931-653038623765/background.svg" alt=""
+                    class="greeting-container__background">
+                <a target="_blank" href="./index__globe,html"><img src="./src/phone.png" alt=""
+                        class="greeting-container__image--android greeting-container__image--choosen"></a>
+                <a target="_blank" href="./index__cube,html"><img src="./src/phone.png" alt=""
+                        class="greeting-container__image--phone"></a>
+            </div>
+        </div>
+        <div class="toggler-container">
+            <div class="panel-container">
+                <div class="android-button" id="androidOn">Globe
+                    <span class="open-indicator open-indicator--android open-indicator--active"></span>
+                </div>
+                <div class="ios-button" id="iosOn">Cube
+                    <span class="open-indicator open-indicator--ios"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
