@@ -134,7 +134,7 @@ html {
     z-index: 2;
     transform: translateX(-110vw);
     transition: all  1s ease;
-    width: 280px;
+    width: 180px;
 }
 .greeting-container__image--android {
     transform: translateX(-110vw);
